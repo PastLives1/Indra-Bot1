@@ -1,6 +1,6 @@
 const Canvas = require("canvas")
 const Discord = require("discord.js")
-const background = "https://wallpaperbat.com/img/301585-peaceful-anime-wallpaper-top-free-peaceful-anime-background.jpg"
+const background = "ImageBackgroundURL"
 
 const dim = {
     height: 675,
