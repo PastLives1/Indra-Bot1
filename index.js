@@ -3,7 +3,7 @@ require("dotenv").config()
 
 const  generateImage = require("./generateImage")
 
-const TOKEN = "OTI2ODU3NzQxMDQ0MTcwODMy.YdBxiQ.u660aKSBRFhfqt8gLl2eXHTKT7A"
+const TOKEN = "#TOKEN"
 
 const client = new Discord.Client({
     intents: [
@@ -23,7 +23,7 @@ client.on("messageCreate", (message) =>{
     }
 })
 
-const welcomeChannelId = "931365191977930792"
+const welcomeChannelId = "#Channel"
 
 client.on("guildMemberAdd", async (member) => {
     const img = await generateImage(member)
